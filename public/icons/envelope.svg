@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.492" height="14.619" viewBox="0 0 19.492 14.619">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="envelope" transform="translate(0 -64)">
+        <g id="Group_2744" data-name="Group 2744" transform="translate(0 64)">
+            <g id="Group_2743" data-name="Group 2743">
+                <path id="Path_1783" d="M7.057 65.186c2.675 2.266 7.369 6.252 8.749 7.494a.815.815 0 0 0 1.179 0c1.381-1.244 6.075-5.23 8.75-7.5a.406.406 0 0 0 .057-.56 1.613 1.613 0 0 0-1.274-.62H8.275A1.613 1.613 0 0 0 7 64.626a.406.406 0 0 0 .057.56z" class="cls-1" data-name="Path 1783" transform="translate(-6.65 -64)"/>
+                <path id="Path_1784" d="M19.257 126.449a.4.4 0 0 0-.433.059c-2.967 2.515-6.753 5.739-7.945 6.812a1.644 1.644 0 0 1-2.267 0c-1.27-1.144-5.522-4.759-7.944-6.812a.406.406 0 0 0-.669.31v10.212a1.626 1.626 0 0 0 1.624 1.624h16.245a1.626 1.626 0 0 0 1.624-1.624v-10.212a.406.406 0 0 0-.235-.369z" class="cls-1" data-name="Path 1784" transform="translate(0 -124.035)"/>
+            </g>
+        </g>
+    </g>
+</svg>

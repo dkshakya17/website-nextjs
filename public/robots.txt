@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /icons/*
+Disallow: /api/*
+Disallow: /admin/*
+Disallow: /thirdPartyImages/*
+Sitemap: https://uniacco.com/sitemap.xml

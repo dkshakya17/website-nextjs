@@ -1,0 +1,53 @@
+{
+  "name": "uniacco",
+  "version": "1.0.0",
+  "description": "uniacco frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "postexport": "node scripts/postExport.js"
+  },
+  "keywords": [
+    "uniacco"
+  ],
+  "author": "Basil",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "formik": "^2.0.3",
+    "google-map-react": "^1.1.5",
+    "input-moment": "^0.4.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "moment": "^2.24.0",
+    "next": "^9.1.3",
+    "next-seo": "^3.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-datepicker": "^2.10.1",
+    "react-dom": "^16.11.0",
+    "react-gtm-module": "^2.0.8",
+    "react-image-lightbox": "^5.1.1",
+    "react-input-range": "^1.3.0",
+    "react-lottie": "^1.2.3",
+    "react-markdown": "^4.2.2",
+    "react-month-picker-calendar": "^1.1.18",
+    "react-multi-carousel": "^2.4.2",
+    "react-paginate": "^6.3.2",
+    "react-redux": "^7.1.3",
+    "react-responsive-carousel": "^3.1.51",
+    "react-select": "^1.0.0",
+    "react-virtualized-select": "^3.1.3",
+    "redux-saga": "^1.1.3",
+    "universal-cookie": "^4.0.2",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}

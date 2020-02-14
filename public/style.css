@@ -1,0 +1,714 @@
+body h1 {
+    color: #101A42;
+}
+
+@font-face {
+	font-family: 'Conv_clarika-grot-bold';
+	src: url('/fonts/clarika-grot-bold.eot');
+	src: local('☺'), url('/fonts/clarika-grot-bold.woff') format('woff'), url('/fonts/clarika-grot-bold.ttf') format('truetype'), url('/fonts/clarika-grot-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_clarika-grot-regular';
+	src: url('/fonts/clarika-grot-regular.eot');
+	src: local('☺'), url('/fonts/clarika-grot-regular.woff') format('woff'), url('/fonts/clarika-grot-regular.ttf') format('truetype'), url('/fonts/clarika-grot-regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.input_btn_font{
+    font-size: 16px;
+    font-family: 'Conv_clarika-grot-regular';
+    color: #9ba7be;
+    background-color: #f4f6f8;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.font_primary_color{
+    color:#f05c4e;
+}
+
+.font_color_tertiary{
+    color: white;
+}
+
+.font_secondary_color{
+  color: #121c44;
+}
+
+.btn_shadow{
+    box-shadow: 2px 3px 19px 0px #f9ebdc;
+}
+
+.UniAcco_btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding:  12px 24px;
+    font-family: 'Conv_clarika-grot-bold';
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+  }
+
+  .UniAcco_btn:focus{
+    outline: 0px;
+    background-color: #cc2413!important;
+  }
+
+  .UniAcco_btn:hover{
+    outline: 0px;
+    background-color: #e24030!important;
+  }
+  .main_heading_margin{
+    margin: 2rem 0rem;
+  }
+
+  .main_heading{
+    font-family: 'Conv_clarika-grot-bold';
+    font-size: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+.position_relative{
+    position: relative;
+}
+
+.over_flow_hidden{
+    overflow: hidden;
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+
+/* color classes */
+.white{
+    color: white !important;
+}
+.pull-right{
+    float: right !important;
+}
+.primary-btn{
+  border-radius: 12px !important;
+  background-color: #f05c4e !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5.4;
+  letter-spacing: normal;
+  text-align: center;
+  border: none !important;
+  color: #ffffff;
+  box-shadow: 4px 3px 14px 0px #fbdab6;
+}
+.secondary-btn{
+  border-radius: 12px !important;
+  background-color: #054d7f !important;
+  font-size: 20px;
+  border: none !important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 5px 5px 99px 0 rgba(155, 167, 190, 0.2);
+}
+.btn-outline-secondary{
+  border-radius: 12px !important;
+  border: solid 1px #054d7f !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #054d7f !important;
+  background: transparent !important;
+}
+.btn-outline-primary{
+    border-radius: 12px !important;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #f05c4e !important;
+    background-color: #ffffff !important;
+    color: #f05c4e !important;
+}
+
+.btn-outline-secondary:hover{
+    color: #054d7f !important;
+}
+.p-0{
+    padding: 0 !important;
+}
+
+.red{
+    color: #f05c4e !important;
+}
+.red_bg{
+    background: #f05c4e;
+}
+/* Begin About us */
+div.blueCard.card {
+    border-radius: 1em;
+    padding-right: 1em;
+    background: #054D7F;
+}
+div.blueCard.card div.card-body,
+div.orangeCard.card div.card-body {
+    text-align: left;
+    padding: 1rem;
+}
+div.card.innerCard {
+    border-radius: 12px;
+    margin-bottom: 1em;
+    margin-left: 01em;
+}
+div.card.innerCard a, div.card.innerCard span {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+div.card-body p.innerText {
+    color: white;
+    margin-top: 1em;
+    padding-left: .2em;
+}
+
+div.orangeCard.card {
+    border-radius: 1em;
+    padding-right: 1em;
+    background: #F05B4E;
+}
+div.card-body.nobreak {
+    word-wrap: normal;
+}
+.contactForm input, .contactForm textarea {
+    font-size: 1em;
+    background-color: rgba(155, 167, 190, 0.1);
+    border: none;
+}
+/* End Contact us */
+/* Begin About us */
+div.textBox {
+    padding-top: 6em;
+}
+div.teamBox {
+    padding: 2em;
+}
+div.card-body
+h2.teamName {
+    font-family: 'Clarika Grotesque';
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    padding-top: 0;
+    text-align: left;
+}
+h2 span{
+    color: #F05B4E;
+}
+.info_form .formBox.card {
+    margin-top: 0;
+}
+.info_form .formBox .form-control {
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(155, 167, 190, 0.1);
+    height: 45px;
+    padding: 0px 15px;
+}
+
+.white {
+    color: white !important;
+}
+div.p-2 div.row {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.teamSinglePhoto {
+    /* margin-top: -3em; */
+}
+div.card.teamCard {
+    min-height: 21em;
+}
+div.card.teamCard p {font-size: 1rem;}
+div.card.text-left div.card-body h6,
+div.card.text-left div.card-body h5,
+div.card.text-left div.card-body p {
+    text-align: left;
+}
+div.card.text-left div.card-body h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+div.card.text-left div.card-body p {
+    line-height: 1.2em;
+    /* padding-bottom: 0em; */
+    /* min-height: 19em; */
+}
+div.card.text-left {
+    margin-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    div.card.text-left div.card-body {
+        padding-bottom: 0em;
+        min-height: 7em;
+    }
+}
+/* End About us */
+/* Begin Footer */
+button#subscribeButton {
+    background-color:#F05B4E;
+    border: none;
+    width: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+div.footerDiv .buttonCol {
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+}
+/* @media only screen and (min-width: 600px) {
+    button#subscribeButton {
+        width: 9em;
+    }
+} */
+div.footerDiv small {
+    color: white;
+    line-height: 1.7em;
+    font-size: 1em;
+}
+div.footerDiv form div.row {
+    background:white;
+    border-radius: 0.3em;
+    margin-left: 0;
+}
+div.footerDiv input {
+    border: none;
+    margin-top: 0.5em;
+}
+span.text-gray {
+    color: #484f6b;
+    margin: 0;
+    padding: 0;
+    line-height: 0em;
+    font-family: 'Conv_clarika-grot-regular';
+    font-size: 0.9rem;
+}
+div.footerDiv .list-group-item {
+    padding-left: 0;
+    background-color: #101A42;
+    line-height: 0.4;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Clarika Grotesque';
+    border-bottom:  2px solid #1c2752;
+
+}
+div.footerDiv .disclaimer span {
+    color: #ffffff;
+    font-size: 0.8em;
+    line-height: 1.5;
+    font-family: 'Conv_clarika-grot-regular';
+}
+div.footerSocialLinks .icons {
+    padding: 2em;
+    background-repeat: no-repeat;
+    max-width: 50px;
+    background-image: url('/social-icon.png');
+}
+div.footerSocialLinks .insta {
+    background-position-x: 0px;
+}
+div.footerSocialLinks .twitter {
+    background-position-x: -74px;
+}
+div.footerSocialLinks .linkedin {
+    background-position-x: -222px;
+}
+div.footerSocialLinks .fb {
+    background-position-x: -148px;
+}
+/* div.footerCopy {
+    background-image: url('/uniacco-white-l.png');
+    background-repeat: no-repeat;
+    padding-top: 5em;
+    margin-top: -3em;
+} */
+
+/* End Footer */
+/* Begin Refer */
+div.card.giftBox {
+    border: none;
+    -webkit-box-shadow: 0px -2px 55px 3px rgba(48, 48, 48, 0.17);
+    -moz-box-shadow: 0px -2px 55px 3px rgba(48, 48, 48, 0.17);
+    box-shadow: 0px -2px 55px 3px rgba(48, 48, 48, 0.17);
+    border-radius: .5em;
+}
+.giftBox h5 span {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+div.card.giftcardBg {
+    background-image: url("/giftcardamazonbg.png");
+    min-height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.amazonLogo {
+    max-width: 8em;
+}
+div.amazonvoucherCircle {
+    position: absolute;
+    top: 1em;
+    right: 0em;
+    background-image: url("/amazon_voucher@2x.png");
+    min-height: 33vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 13em;
+}
+button#referButton {
+    background-color:#F05B4E;
+    border: none;
+    border-radius: .3em;
+    width: 100%;
+    padding: 0.7em 0em;
+    font-weight: 600;
+}
+.referForm input {
+    font-size: 1em;
+    background-color: rgba(155, 167, 190, 0.1);
+    border: none;
+}
+@media only screen and (min-width: 600px) {
+    div.amazonvoucherCircle {
+        position: absolute;
+        top: 1em;
+        right: -9em;
+        background-image: url("/amazon_voucher@2x.png");
+        min-height: 33vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 13em;
+    }
+}
+@media only screen and (max-width: 700px) {
+    div.amazonvoucherCircle {
+        display: none;
+    }
+}
+div.card.giftBox {
+    border: none;
+    -webkit-box-shadow: 0px -2px 55px 3px rgba(155,167,190, 0.15);
+    -moz-box-shadow: 10px 10px 90px 30px rgba(155,167,190, 0.15);
+    box-shadow: 0px -2px 55px 3px rgba(155,167,190, 0.15);
+    border-radius: .5em;
+}
+div.innerCardhiw img {
+    margin-right: 10px;
+}
+/* End Refer */
+/* Begin Howitworks */
+.contact-text{
+    font-family: 'Clarika Grotesque';
+    font-weight: bold;
+    font-size: 18px;
+}div.card.innerCardhiw {
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: 'Clarika Grotesque';
+    margin-bottom: 1.5em;
+}
+div.card.innerCardhiw a, div.card.innerCard span {
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-family: 'Clarika Grotesque';
+    font-weight: bold;
+    font-size: 18px;
+}
+div.card-body p.innerText {
+    align-content: center;
+    align-items: center;
+    color: white;
+}div.howitworksCard {
+    padding: 0;
+    border: none;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+div.howBox {
+    padding: 0em;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.separatorline {
+    background-image: url("/connection_dashed_line-part1.png");
+    min-height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+.separatorline2 {
+    z-index: -1;
+    background-image: url("/connection_dashed_line-part2.png");
+    min-height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+div.bgBlue {
+    background: #054D7F;
+}
+div.bgOrange {
+    background: #F05B4E;
+}
+div.bgdarkblue {
+    background: #101A42;
+}.bgBlue {
+    background: #054D7F;
+}
+.bgdarkblue {
+    background: #101A42;
+}
+.bgOrange {
+    background: #F05B4E;
+}
+div.giftBox div.card-body a, div.giftBox div.bgBlue span {
+    color: white;
+}
+.hiwBullet {
+    border-radius: 50%;
+    padding: 0em 0.4em 0.1em;
+    font-size: 0.8em;
+    color: white !important;
+}
+/* End Howitworks */
+/* Begin Reviews */
+div.carousel-caption p {
+    font-size: 1em;
+    text-align: left;
+}
+div.carousel-caption h3 {
+    text-align: left;
+}
+div.carousel-caption {
+    padding-left: .6em;
+    bottom: 60px;
+}
+a.carousel-control-next,
+a.carousel-control-prev {
+    height: 3em;
+    border-radius: 50%;
+    width: 3em;
+    background-color: #F05B4E;
+    margin: 0em 2em;
+}
+
+.navbar-light .navbar-toggler{
+    border: 1px solid transparent!important;
+}
+
+.navbar-light .navbar-toggler:focus{
+    outline: none!important;
+}
+
+.react-multi-carousel-dot-list{
+  display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    div.carousel-caption {
+        bottom: -30px;
+    }
+    .react-multi-carousel-dot-list {
+      display:flex;
+    }
+    .subconfig_cal_wrapper{
+      margin-bottom:0.9rem !important;
+    }
+}
+/* End Reviews */
+
+
+/* Nakul */
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: #fff;
+    background-color: #ffdbd8!important;
+    border-color: #F05B4E!important;
+}
+.btn-primary.focus, .btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem transparent!important;
+}
+
+.btn-primary:hover{
+    border-color: transparent!important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .main_heading {
+        font-size: 36px;
+    }
+    .main_heading_margin{
+        margin: 1rem 0rem;
+      }
+      div.howBox h1{
+        font-size: 26px;
+    }
+
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.faq_wrapper_container{
+  transition:height 2s;
+}
+
+.payment_details_area{
+  max-height:15rem;
+  overflow:hidden;
+  transition:max-height 1s;
+}
+
+.booking_details_area{
+  max-height:15rem;
+  overflow:hidden;
+  transition:max-height 1s;
+}
+
+.show_full_details{
+  max-height:2000px;
+}
+
+.underline_on_hover{
+  cursor:pointer;
+}
+.underline_on_hover:hover{
+  text-decoration:underline !important;
+}
+.banner_slide:hover{
+  cursor:pointer;
+}
+.react-datepicker__day-name{
+  color:white !important;
+}
+.innersec_space > .tab-content{
+  width:100%;
+}
+.innersec_space > .nav-tabs > a{
+  border: 2px solid #154d7f !important;
+}
+.innersec_space > .nav-tabs > .active{
+  border:0;
+}
+.hideReadmore{
+  display:none;
+}
+
+.dropDown_subConfig{
+  min-width:0 !important;
+  border-top:0 !important;
+}
+.dropDown_subConfig > a{
+  padding-right:0.9rem;
+  padding-left:1rem;
+  color:#f05c4e;
+}
+.subconfig_text{
+  font-size:1.25rem;
+  font-weight:700;
+}
+.subconfig_text > span{
+  color:#9ba7be;
+}
+.subconfig_cal_wrapper{
+    padding:0.5rem 0.2rem 0.05rem 0.2rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.subconfig_cal_txt{
+  color: #ec5d4f;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-align: center;
+  padding-right: 2rem;
+}
+.btn_drop_subconfig{
+  border:2px solid #F05B4E !important;
+ background:white !important;
+  color:#F05B4E !important;
+}
+.toggle_drop_subconfig{
+  background:#F05B4E !important;
+  border-color:#F05B4E !important;
+}
+.label_calculator{
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #9ba7be;
+}
+.subConfig_label_text{
+  font-size:1rem;
+}
+.prop_code_wrapper {
+  max-width:100% !important;
+}
+.sold_out_overlay{
+    height: 100%;
+    width: 100%;
+    display: block;
+    z-index: 10;
+    position: absolute;
+    background:#1313130f;
+    left: 0;
+    top: 0;
+    border-radius:8px;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.264" height="17.299" viewBox="0 0 24.264 17.299">
+    <defs>
+        <style>
+            .cls-1{fill:#f05c4e;stroke:#f05c4e;stroke-width:.1px}
+        </style>
+    </defs>
+    <g id="wifi" transform="translate(.08 .05)">
+        <path id="Path_88" d="M24.006 12.827a16.9 16.9 0 0 0-23.877 0 .439.439 0 0 0 .622.622 16.023 16.023 0 0 1 22.634 0 .439.439 0 1 0 .622-.621z" class="cls-1" data-name="Path 88" transform="translate(0 -7.89)"/>
+        <path id="Path_89" d="M6.007 20.067a.439.439 0 1 0 .622.622 12.364 12.364 0 0 1 17.466 0 .439.439 0 1 0 .622-.622 13.245 13.245 0 0 0-18.71 0z" class="cls-1" data-name="Path 89" transform="translate(-3.294 -12.547)"/>
+        <path id="Path_90" d="M18.656 24.508a9.512 9.512 0 0 0-6.771 2.8.439.439 0 0 0 .622.622 8.707 8.707 0 0 1 12.3 0 .439.439 0 1 0 .622-.622 9.511 9.511 0 0 0-6.773-2.8z" class="cls-1" data-name="Path 90" transform="translate(-6.589 -17.204)"/>
+        <path id="Path_91" d="M23.782 33.916a2.88 2.88 0 1 0 2.88 2.88 2.883 2.883 0 0 0-2.88-2.88zm0 4.88a2 2 0 1 1 2-2 2 2 0 0 1-2 2.004z" class="cls-1" data-name="Path 91" transform="translate(-11.715 -22.476)"/>
+    </g>
+</svg>
